@@ -23,7 +23,7 @@ const Exercise1 = () => {
   }, []);
 
   return (
-    <div className="exercise1-container">
+    <div>
       <HeaderTitle title="Exercise 1" backButton />
       {isLoading && <span>Loading...</span>}
       {!isLoading && score !== null && (
