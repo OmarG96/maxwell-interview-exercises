@@ -1,12 +1,6 @@
-const scores = {
-  IssuesEvent: 7,
-  IssueCommentEvent: 6,
-  PushEvent: 5,
-  PullRequestReviewCommentEvent: 4,
-  WatchEvent: 3,
-  CreateEvent: 2,
-  others: 1,
-};
+import scoresData from "../data/scores.json";
+
+const { data: scores } = scoresData;
 
 const calculateScore = (data = []) => {
   let totalScore = 0;

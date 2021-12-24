@@ -1,0 +1,11 @@
+.purchase-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.purchase-detail table {
+  text-align: left;
+  min-width: 400px;
+  border: solid black 1px;
+  margin: 48px 0 24px;
+}
